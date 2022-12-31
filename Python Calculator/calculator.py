@@ -16,24 +16,8 @@ def calculator ():
    else:
      result = "Invalid Operator"
 
-     return result
+   print(result) 
 
-
-
-  #Run Again 
-   runAgain = input("Do you have another calculation? (y/n):  ")
-   if runAgain == 'n':
-     print("Closing")
-     break
+  
 
 calculator()
-
-
-
-
-
-
-
-
-
-
